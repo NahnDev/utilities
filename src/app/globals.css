@@ -119,4 +119,15 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .screen {
+    @apply h-screen w-screen;
+  }
+
+  .grid-cols-left {
+    @apply grid-cols-[auto_1fr];
+  }
+  .grid-cols-right {
+    @apply grid-cols-[1fr_auto];
+  }
 }

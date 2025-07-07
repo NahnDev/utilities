@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import AppSearch from "../../components/AppSearch";
 import { useTrackStore } from "../../store/track";
