@@ -122,6 +122,7 @@
 
   .screen {
     @apply h-screen w-screen;
+    @apply overflow-hidden;
   }
 
   .grid-cols-left {

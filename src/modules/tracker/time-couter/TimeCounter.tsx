@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import TimeSlot from "./TimeSlot";
-import { CirclePause, PlayCircle, Square, SquareActivity } from "lucide-react";
+import { PlayCircle, Square } from "lucide-react";
 import clsx from "clsx";
-import { TTime } from "../../types/time";
+import { TTime } from "@/types/time";
 
 export type TimeCounterProps = {
   value?: TTime;
